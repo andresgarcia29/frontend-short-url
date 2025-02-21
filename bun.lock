@@ -7,8 +7,8 @@
         "@react-spring/web": "^9.7.5",
         "@tailwindcss/vite": "^4.0.7",
         "antd": "^5.24.1",
-        "react": "^19.0.0",
-        "react-dom": "^19.0.0",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
         "tailwindcss": "^4.0.7",
       },
       "devDependencies": {
@@ -483,6 +483,8 @@
 
     "lodash.merge": ["lodash.merge@4.6.2", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/lodash.merge/-/lodash.merge-4.6.2.tgz", {}, ""],
 
+    "loose-envify": ["loose-envify@1.4.0", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/loose-envify/-/loose-envify-1.4.0.tgz", { "dependencies": { "js-tokens": "^3.0.0 || ^4.0.0" }, "bin": { "loose-envify": "cli.js" } }, "sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8="],
+
     "lru-cache": ["lru-cache@5.1.1", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/lru-cache/-/lru-cache-5.1.1.tgz", { "dependencies": { "yallist": "^3.0.2" } }, ""],
 
     "merge2": ["merge2@1.4.1", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/merge2/-/merge2-1.4.1.tgz", {}, ""],
@@ -591,9 +593,9 @@
 
     "rc-virtual-list": ["rc-virtual-list@3.18.2", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/rc-virtual-list/-/rc-virtual-list-3.18.2.tgz", { "dependencies": { "@babel/runtime": "^7.20.0", "classnames": "^2.2.6", "rc-resize-observer": "^1.0.0", "rc-util": "^5.36.0" }, "peerDependencies": { "react": ">=16.9.0", "react-dom": ">=16.9.0" } }, ""],
 
-    "react": ["react@19.0.0", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/react/-/react-19.0.0.tgz", {}, ""],
+    "react": ["react@18.3.1", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/react/-/react-18.3.1.tgz", { "dependencies": { "loose-envify": "^1.1.0" } }, "sha1-SauJIAnFOTNiW9FrJTP8dUyrKJE="],
 
-    "react-dom": ["react-dom@19.0.0", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/react-dom/-/react-dom-19.0.0.tgz", { "dependencies": { "scheduler": "^0.25.0" }, "peerDependencies": { "react": "^19.0.0" } }, ""],
+    "react-dom": ["react-dom@18.3.1", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/react-dom/-/react-dom-18.3.1.tgz", { "dependencies": { "loose-envify": "^1.1.0", "scheduler": "^0.23.2" }, "peerDependencies": { "react": "^18.3.1" } }, "sha1-wiZdeVEbV9R5s90/36UVNklMXLQ="],
 
     "react-is": ["react-is@18.3.1", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/react-is/-/react-is-18.3.1.tgz", {}, ""],
 
@@ -611,7 +613,7 @@
 
     "run-parallel": ["run-parallel@1.2.0", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/run-parallel/-/run-parallel-1.2.0.tgz", { "dependencies": { "queue-microtask": "^1.2.2" } }, ""],
 
-    "scheduler": ["scheduler@0.25.0", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/scheduler/-/scheduler-0.25.0.tgz", {}, ""],
+    "scheduler": ["scheduler@0.23.2", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/scheduler/-/scheduler-0.23.2.tgz", { "dependencies": { "loose-envify": "^1.1.0" } }, "sha1-QUumSjsoKJLpRM8hCOzAeNEVzcM="],
 
     "scroll-into-view-if-needed": ["scroll-into-view-if-needed@3.1.0", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/scroll-into-view-if-needed/-/scroll-into-view-if-needed-3.1.0.tgz", { "dependencies": { "compute-scroll-into-view": "^3.0.2" } }, ""],
 
