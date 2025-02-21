@@ -105,7 +105,7 @@ function App() {
                 rootMargin="-50px"
               />
               <Input
-                placeholder="Insert you long url..."
+                placeholder="Insert your long url..."
                 size="large"
                 value={bigUrl}
                 onChange={(e) => setbigUrl(e.target.value)}
