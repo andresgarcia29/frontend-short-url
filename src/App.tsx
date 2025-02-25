@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react";
+import { useState, useCallback } from "react";
 import {
   Button,
   ConfigProvider,
@@ -48,7 +48,7 @@ function App() {
         placement: "top",
         className: "bg-black border-2 border-green-500/100 rounded-lg",
       });
-    } catch (err) {
+    } catch {
       api.error({
         message: <div className="text-white">Copy failed</div>,
         description: (
@@ -115,7 +115,7 @@ function App() {
   }, [bigUrl, api]);
 
   const handleKeyPress = useCallback(
-    (e) => {
+    (e: React.KeyboardEvent<HTMLInputElement>) => {
       if (e.key === "Enter") {
         makeShortUrl();
       }
