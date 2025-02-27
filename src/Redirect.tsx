@@ -9,6 +9,10 @@ function Redirect() {
     fetch(`https://short-service.corvux.co/${redirectID}`)
       .then((res) => res.json())
       .then((data) => {
+        if (data.error) {
+          window.location.href = "/";
+          return;
+        }
         window.location.href = data.url;
       });
   }, [redirectID]);
