@@ -22,7 +22,7 @@ import { ShortUrl } from "./types";
 const { Title } = Typography;
 
 // Extract API URL to environment variable
-const API_URL = "https://short.corvux.co";
+const API_URL = "https://short-service.corvux.co";
 
 function App() {
   const [api, contextHolder] = notification.useNotification();

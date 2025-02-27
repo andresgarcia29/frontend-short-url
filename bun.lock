@@ -9,6 +9,7 @@
         "antd": "^5.24.1",
         "react": "^18.0.0",
         "react-dom": "^18.0.0",
+        "react-router": "^7.2.0",
         "tailwindcss": "^4.0.7",
       },
       "devDependencies": {
@@ -279,6 +280,8 @@
 
     "@types/babel__traverse": ["@types/babel__traverse@7.20.6", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/@types/babel__traverse/-/babel__traverse-7.20.6.tgz", { "dependencies": { "@babel/types": "^7.20.7" } }, ""],
 
+    "@types/cookie": ["@types/cookie@0.6.0", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/@types/cookie/-/cookie-0.6.0.tgz", {}, "sha1-6sOX8ovx1q4K4IE2PsovQlvt8NU="],
+
     "@types/estree": ["@types/estree@1.0.6", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/@types/estree/-/estree-1.0.6.tgz", {}, ""],
 
     "@types/json-schema": ["@types/json-schema@7.0.15", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/@types/json-schema/-/json-schema-7.0.15.tgz", {}, ""],
@@ -342,6 +345,8 @@
     "concat-map": ["concat-map@0.0.1", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/concat-map/-/concat-map-0.0.1.tgz", {}, ""],
 
     "convert-source-map": ["convert-source-map@2.0.0", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/convert-source-map/-/convert-source-map-2.0.0.tgz", {}, ""],
+
+    "cookie": ["cookie@1.0.2", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/cookie/-/cookie-1.0.2.tgz", {}, "sha1-JzYHAVMhFr0/H5QWkp0Xav4eRhA="],
 
     "copy-to-clipboard": ["copy-to-clipboard@3.3.3", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/copy-to-clipboard/-/copy-to-clipboard-3.3.3.tgz", { "dependencies": { "toggle-selection": "^1.0.6" } }, ""],
 
@@ -483,7 +488,7 @@
 
     "lodash.merge": ["lodash.merge@4.6.2", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/lodash.merge/-/lodash.merge-4.6.2.tgz", {}, ""],
 
-    "loose-envify": ["loose-envify@1.4.0", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/loose-envify/-/loose-envify-1.4.0.tgz", { "dependencies": { "js-tokens": "^3.0.0 || ^4.0.0" }, "bin": { "loose-envify": "cli.js" } }, "sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8="],
+    "loose-envify": ["loose-envify@1.4.0", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/loose-envify/-/loose-envify-1.4.0.tgz", { "dependencies": { "js-tokens": "^3.0.0 || ^4.0.0" }, "bin": { "loose-envify": "cli.js" } }, ""],
 
     "lru-cache": ["lru-cache@5.1.1", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/lru-cache/-/lru-cache-5.1.1.tgz", { "dependencies": { "yallist": "^3.0.2" } }, ""],
 
@@ -593,13 +598,15 @@
 
     "rc-virtual-list": ["rc-virtual-list@3.18.2", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/rc-virtual-list/-/rc-virtual-list-3.18.2.tgz", { "dependencies": { "@babel/runtime": "^7.20.0", "classnames": "^2.2.6", "rc-resize-observer": "^1.0.0", "rc-util": "^5.36.0" }, "peerDependencies": { "react": ">=16.9.0", "react-dom": ">=16.9.0" } }, ""],
 
-    "react": ["react@18.3.1", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/react/-/react-18.3.1.tgz", { "dependencies": { "loose-envify": "^1.1.0" } }, "sha1-SauJIAnFOTNiW9FrJTP8dUyrKJE="],
+    "react": ["react@18.3.1", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/react/-/react-18.3.1.tgz", { "dependencies": { "loose-envify": "^1.1.0" } }, ""],
 
-    "react-dom": ["react-dom@18.3.1", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/react-dom/-/react-dom-18.3.1.tgz", { "dependencies": { "loose-envify": "^1.1.0", "scheduler": "^0.23.2" }, "peerDependencies": { "react": "^18.3.1" } }, "sha1-wiZdeVEbV9R5s90/36UVNklMXLQ="],
+    "react-dom": ["react-dom@18.3.1", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/react-dom/-/react-dom-18.3.1.tgz", { "dependencies": { "loose-envify": "^1.1.0", "scheduler": "^0.23.2" }, "peerDependencies": { "react": "^18.3.1" } }, ""],
 
     "react-is": ["react-is@18.3.1", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/react-is/-/react-is-18.3.1.tgz", {}, ""],
 
     "react-refresh": ["react-refresh@0.14.2", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/react-refresh/-/react-refresh-0.14.2.tgz", {}, ""],
+
+    "react-router": ["react-router@7.2.0", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/react-router/-/react-router-7.2.0.tgz", { "dependencies": { "@types/cookie": "^0.6.0", "cookie": "^1.0.1", "set-cookie-parser": "^2.6.0", "turbo-stream": "2.4.0" }, "peerDependencies": { "react": ">=18", "react-dom": ">=18" }, "optionalPeers": ["react-dom"] }, "sha1-qPJynTn2NKeocNFN2QahtAbznW8="],
 
     "regenerator-runtime": ["regenerator-runtime@0.14.1", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/regenerator-runtime/-/regenerator-runtime-0.14.1.tgz", {}, ""],
 
@@ -613,11 +620,13 @@
 
     "run-parallel": ["run-parallel@1.2.0", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/run-parallel/-/run-parallel-1.2.0.tgz", { "dependencies": { "queue-microtask": "^1.2.2" } }, ""],
 
-    "scheduler": ["scheduler@0.23.2", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/scheduler/-/scheduler-0.23.2.tgz", { "dependencies": { "loose-envify": "^1.1.0" } }, "sha1-QUumSjsoKJLpRM8hCOzAeNEVzcM="],
+    "scheduler": ["scheduler@0.23.2", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/scheduler/-/scheduler-0.23.2.tgz", { "dependencies": { "loose-envify": "^1.1.0" } }, ""],
 
     "scroll-into-view-if-needed": ["scroll-into-view-if-needed@3.1.0", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/scroll-into-view-if-needed/-/scroll-into-view-if-needed-3.1.0.tgz", { "dependencies": { "compute-scroll-into-view": "^3.0.2" } }, ""],
 
     "semver": ["semver@6.3.1", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/semver/-/semver-6.3.1.tgz", { "bin": { "semver": "bin/semver.js" } }, ""],
+
+    "set-cookie-parser": ["set-cookie-parser@2.7.1", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/set-cookie-parser/-/set-cookie-parser-2.7.1.tgz", {}, "sha1-MBbxUAciAt++kPre4FNXPMidKUM="],
 
     "shebang-command": ["shebang-command@2.0.0", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/shebang-command/-/shebang-command-2.0.0.tgz", { "dependencies": { "shebang-regex": "^3.0.0" } }, ""],
 
@@ -644,6 +653,8 @@
     "toggle-selection": ["toggle-selection@1.0.6", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/toggle-selection/-/toggle-selection-1.0.6.tgz", {}, ""],
 
     "ts-api-utils": ["ts-api-utils@2.0.1", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/ts-api-utils/-/ts-api-utils-2.0.1.tgz", { "peerDependencies": { "typescript": ">=4.8.4" } }, ""],
+
+    "turbo-stream": ["turbo-stream@2.4.0", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/turbo-stream/-/turbo-stream-2.4.0.tgz", {}, "sha1-Hk/KZyXpD6FKxK23gvLTdZpWlfA="],
 
     "type-check": ["type-check@0.4.0", "https://artifactory.moveaws.com/artifactory/api/npm/Move-npm/type-check/-/type-check-0.4.0.tgz", { "dependencies": { "prelude-ls": "^1.2.1" } }, ""],
 
